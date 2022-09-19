@@ -1,0 +1,40 @@
+.footer {
+   padding: 30px 0;
+   background-color: rgba(223, 223, 223, 0.7);
+
+   &__row {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 20px;
+      color: brown;
+      font-weight: 600;
+
+      @media (max-width: 950px) {
+         flex-direction: column;
+         justify-content: baseline;
+         gap: 10px;
+      }
+   }
+
+   &__number {
+      a {
+         color: brown;
+         font-weight: 600;
+      }
+   }
+
+   &__vk {
+      a {
+         color: brown;
+         font-weight: 600;
+      }
+   }
+
+   &__whatsApp {
+      a {
+         color: brown;
+         font-weight: 600;
+      }
+   }
+}

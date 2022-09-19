@@ -1,0 +1,29 @@
+h1 {
+   text-align: center;
+   margin-bottom: 30px;
+   font-weight: 600;
+   font-size: 24px;
+}
+
+.main {
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   gap: 30px;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.presentation {
+   margin-bottom: 30px;
+   background: url(../../../../public/img/MyCollages.jpg) no-repeat;
+   width: 100%;
+   height: 350px;
+   background-size: "auto";
+   background-position: center center;
+   position: relative;
+   @media (max-width: 1020px) {
+      display: none;
+   }
+}

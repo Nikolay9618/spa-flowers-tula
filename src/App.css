@@ -1,0 +1,14 @@
+.wrapper {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+.withoutScroll{
+   overflow-y: hidden;
+}
+
+.mainApp{
+   flex: 1 1 auto;
+}
